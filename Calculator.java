@@ -20,6 +20,11 @@ else if (operator.equals("-")){
     
 	System.out.println(zahl1 + " - " + zahl2 + " = " + result);
 }
+else if (operator.equals("*")){
+  result = zahl1 * zahl2;
+    
+	System.out.println(zahl1 + " * " + zahl2 + " = " + result);
+}
 
 }
 
